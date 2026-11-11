@@ -1,0 +1,94 @@
+{
+  "id": "human-vs-ai",
+  "type": "human-vs-ai",
+  "title": "Human vs AI Challenge",
+  "description": "Answer each question, then see what the AI guide picks. Who knows the campus better?",
+  "icon": "brain",
+  "order": 4,
+  "accent": "#8b5cf6",
+  "badges": [
+    {
+      "id": "bronze",
+      "title": "Worthy Rival",
+      "description": "Scored 40% or more.",
+      "icon": "medal",
+      "minScorePercent": 40
+    },
+    {
+      "id": "silver",
+      "title": "AI Challenger",
+      "description": "Scored 70% or more.",
+      "icon": "award",
+      "minScorePercent": 70
+    },
+    {
+      "id": "gold",
+      "title": "Human Champion",
+      "description": "A perfect score!",
+      "icon": "trophy",
+      "minScorePercent": 100
+    }
+  ],
+  "questions": [
+    {
+      "id": "h1",
+      "question": "Which location has a running track and football field?",
+      "options": [
+        "Auditorium",
+        "Playground",
+        "Library",
+        "Science Laboratory"
+      ],
+      "answerIndex": 1,
+      "explanation": "The playground has a football field and running track."
+    },
+    {
+      "id": "h2",
+      "question": "Where do students learn coding and AI basics?",
+      "options": [
+        "Computer Laboratory",
+        "School Garden",
+        "Main Building",
+        "Auditorium"
+      ],
+      "answerIndex": 0,
+      "explanation": "Coding and AI projects happen in the computer laboratory."
+    },
+    {
+      "id": "h3",
+      "question": "Which place has a stage with lighting and a sound system?",
+      "options": [
+        "Classrooms",
+        "Library",
+        "Auditorium",
+        "Main Entrance"
+      ],
+      "answerIndex": 2,
+      "explanation": "The auditorium stage hosts performances and assemblies."
+    },
+    {
+      "id": "h4",
+      "question": "Where can you find a story corner for younger students?",
+      "options": [
+        "Library",
+        "Playground",
+        "Computer Laboratory",
+        "Science Laboratory"
+      ],
+      "answerIndex": 0,
+      "explanation": "The library has a story corner for younger readers."
+    },
+    {
+      "id": "h5",
+      "question": "What does the eco club look after?",
+      "options": [
+        "The auditorium lights",
+        "The school garden",
+        "The computer lab",
+        "The notice board"
+      ],
+      "answerIndex": 1,
+      "explanation": "The eco club cares for the school garden."
+    }
+  ]
+}

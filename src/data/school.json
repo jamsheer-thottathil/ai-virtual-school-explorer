@@ -1,0 +1,149 @@
+{
+  "name": "Horizon Valley School",
+  "shortName": "Horizon Valley",
+  "tagline": "Curiosity · Character · Community",
+  "logo": "assets/logos/school-logo.svg",
+  "heroImage": "assets/hero/hero.svg",
+  "campusMap": "assets/map/campus-map.svg",
+  "startLocation": "entrance",
+  "isSampleData": true,
+  "sampleDataNotice": "Demonstration content: the school name, descriptions, history and achievements in this app are illustrative samples, not verified school records. Replace them in src/data before the exhibition.",
+  "hero": {
+    "eyebrow": "AI Virtual School Explorer",
+    "heading": "EXPLORE OUR SCHOOL",
+    "subtitle": "More than a school. A world of discoveries.",
+    "description": "Step inside our virtual campus, explore our facilities, discover our achievements, and experience the future of education with AI.",
+    "instruction": "Rotate, explore, discover and interact.",
+    "primaryButtons": [
+      {
+        "label": "Explore Virtual Campus",
+        "route": "/campus",
+        "icon": "compass"
+      },
+      {
+        "label": "Meet Our AI Guide",
+        "route": "/guide",
+        "icon": "bot"
+      },
+      {
+        "label": "Discover Our History",
+        "route": "/history",
+        "icon": "history"
+      }
+    ]
+  },
+  "exhibition": {
+    "title": "Welcome, exhibition visitor!",
+    "message": "You scanned our banner – the whole campus is now in your hands. Walk through nine locations, tap the glowing points to learn more, and ask our AI guide anything about what you see.",
+    "qrImage": "",
+    "publicUrl": "",
+    "steps": [
+      "Open the virtual campus and start at the Main Entrance",
+      "Drag, swipe or zoom to look around each location",
+      "Tap glowing markers for stories, photos and videos",
+      "Ask the AI guide – it knows where you are"
+    ]
+  },
+  "about": {
+    "summary": "Horizon Valley School is a sample school profile used to demonstrate the AI Virtual School Explorer. It describes a co-educational day school with science and computer laboratories, a library, a playground, an auditorium and a school garden.",
+    "established": null,
+    "founder": null,
+    "affiliation": null,
+    "address": null,
+    "website": null
+  },
+  "facilities": [
+    "Smart classrooms",
+    "Science laboratory",
+    "Computer laboratory",
+    "Library and reading room",
+    "Playground with running track",
+    "Auditorium",
+    "School garden"
+  ],
+  "achievements": [
+    "Sample: Regular participation in inter-school science exhibitions",
+    "Sample: Annual sports day with house championships",
+    "Sample: Student-run eco club maintaining the school garden"
+  ],
+  "features": [
+    {
+      "icon": "compass",
+      "title": "Virtual campus tour",
+      "description": "Walk through nine locations with 360° views, zoomable photos and connected paths."
+    },
+    {
+      "icon": "info",
+      "title": "Interactive hotspots",
+      "description": "Glowing markers reveal stories, photos, videos and historical notes."
+    },
+    {
+      "icon": "bot",
+      "title": "AI school guide",
+      "description": "Ask questions and get answers grounded in our school records – it knows where you are."
+    },
+    {
+      "icon": "history",
+      "title": "Living history",
+      "description": "Travel through our timeline from the first building to modern expansion."
+    },
+    {
+      "icon": "trophy",
+      "title": "Discovery challenges",
+      "description": "Quizzes, guess-the-location and a Human vs AI showdown that work offline."
+    },
+    {
+      "icon": "rocket",
+      "title": "Future School 2040",
+      "description": "Imagine AI classrooms, robot assistants and an eco-friendly smart campus."
+    }
+  ],
+  "quickAccess": [
+    {
+      "icon": "compass",
+      "title": "Virtual Campus",
+      "description": "Start the guided tour",
+      "route": "/campus",
+      "image": "assets/locations/main-building/thumbnail.svg"
+    },
+    {
+      "icon": "history",
+      "title": "Our History",
+      "description": "Milestones through the years",
+      "route": "/history",
+      "image": "assets/history/establishment.svg"
+    },
+    {
+      "icon": "image",
+      "title": "Gallery",
+      "description": "Photos & videos by category",
+      "route": "/gallery",
+      "image": "assets/gallery/celebrations/1.svg"
+    },
+    {
+      "icon": "bot",
+      "title": "Ask Our School AI",
+      "description": "Chat with the AI guide",
+      "route": "/guide",
+      "image": "assets/locations/computer-lab/thumbnail.svg"
+    },
+    {
+      "icon": "trophy",
+      "title": "AI Challenges",
+      "description": "Play, score and earn badges",
+      "route": "/challenges",
+      "image": "assets/gallery/achievements/1.svg"
+    },
+    {
+      "icon": "rocket",
+      "title": "Future School 2040",
+      "description": "Explore tomorrow's campus",
+      "route": "/future",
+      "image": "assets/future-school/smart-campus.svg"
+    }
+  ],
+  "footer": {
+    "text": "An AI exhibition project – explore our campus from anywhere.",
+    "credits": "Built with React, Vite and Pannellum. Hosted on GitHub Pages. Content is managed in JSON files."
+  }
+}

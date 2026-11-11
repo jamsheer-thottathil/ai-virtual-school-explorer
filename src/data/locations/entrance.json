@@ -1,0 +1,141 @@
+{
+  "id": "entrance",
+  "name": "Main Entrance",
+  "order": 1,
+  "category": "Arrival",
+  "shortDescription": "The welcoming gateway where every school day begins.",
+  "detailedDescription": "The main entrance is the first place visitors and students see. A wide gate opens onto a tree-lined path that leads straight to the Main Building. The welcome arch, the notice board and the security desk make this the starting point of every school day and of our virtual tour.",
+  "thumbnail": "assets/locations/entrance/thumbnail.svg",
+  "mainImage": {
+    "src": "assets/locations/entrance/main.svg",
+    "alt": "Main Entrance (sample illustration)",
+    "caption": "Sample illustration – replace with a real photo"
+  },
+  "panorama": {
+    "src": "assets/panorama/entrance-360.jpg",
+    "preview": "assets/panorama/entrance-360-preview.jpg",
+    "initialYaw": 0,
+    "initialPitch": -2,
+    "initialHfov": 100,
+    "autoRotate": -2
+  },
+  "historicalInformation": [
+    "Sample: The entrance gate was rebuilt during a campus renovation to make it wider and safer for school buses and visitors."
+  ],
+  "interestingFacts": [
+    "The path from the gate leads directly to the Main Building – just follow it to continue the tour.",
+    "The notice board near the gate shares announcements, event posters and student achievements."
+  ],
+  "facilities": [
+    "Main gate and welcome arch",
+    "Security desk",
+    "Visitor notice board",
+    "Drop-off zone"
+  ],
+  "achievements": [],
+  "relatedImages": [
+    {
+      "src": "assets/locations/entrance/photo-1.svg",
+      "alt": "Entrance gate in the morning",
+      "caption": "Morning arrival (sample)"
+    },
+    {
+      "src": "assets/locations/entrance/photo-2.svg",
+      "alt": "Path leading to the main building",
+      "caption": "The path to the Main Building (sample)"
+    }
+  ],
+  "videos": [
+    {
+      "src": "assets/videos/campus-tour-sample.mp4",
+      "title": "Campus tour (sample video)",
+      "poster": "assets/videos/campus-tour-sample-poster.jpg",
+      "caption": "Sample video – replace with a real campus clip."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "welcome-arch",
+      "type": "info",
+      "title": "Welcome Arch",
+      "description": "The arch over the gate welcomes everyone who enters the campus. It is the most photographed spot on exhibition day.",
+      "position": {
+        "x": 50,
+        "y": 22
+      },
+      "panoramaPosition": {
+        "yaw": 0,
+        "pitch": 14
+      },
+      "image": {
+        "src": "assets/locations/entrance/photo-1.svg",
+        "alt": "Welcome arch"
+      },
+      "historicalNotes": [
+        "Sample: The arch was added during a campus renovation."
+      ],
+      "aiQuestion": "Tell me about the welcome arch at the main entrance."
+    },
+    {
+      "id": "notice-board",
+      "type": "info",
+      "title": "Notice Board",
+      "description": "The notice board shares school announcements, upcoming events and celebrates student achievements every week.",
+      "position": {
+        "x": 12,
+        "y": 62
+      },
+      "panoramaPosition": {
+        "yaw": -170,
+        "pitch": -6
+      },
+      "photos": [
+        {
+          "src": "assets/locations/entrance/photo-2.svg",
+          "alt": "Notice board close-up"
+        },
+        {
+          "src": "assets/locations/entrance/photo-3.svg",
+          "alt": "Event poster on the board"
+        }
+      ]
+    },
+    {
+      "id": "to-main-building",
+      "type": "navigation",
+      "title": "Main Building",
+      "target": "main-building",
+      "position": {
+        "x": 50,
+        "y": 62
+      },
+      "panoramaPosition": {
+        "yaw": 0,
+        "pitch": -4
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "to": "main-building",
+      "label": "Walk up the path",
+      "direction": "forward"
+    },
+    {
+      "to": "garden",
+      "label": "Turn to the garden",
+      "direction": "left"
+    },
+    {
+      "to": "playground",
+      "label": "Head to the playground",
+      "direction": "right"
+    }
+  ],
+  "aiContext": "This is the first stop of the virtual tour. Visitors usually continue to the Main Building, which is straight ahead along the path.",
+  "mapPosition": {
+    "x": 50,
+    "y": 92
+  },
+  "isSampleData": true
+}

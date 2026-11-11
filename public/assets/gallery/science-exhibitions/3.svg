@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Young inventors (sample illustration)">
+  <defs><linearGradient id="shadeg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.65"/></linearGradient></defs>
+  <g><rect width="1600" height="1000" fill="#e0f2fe"/><rect y="640" width="1600" height="360" fill="#cbd5e1"/>
+    <rect x="120" y="600" width="1360" height="60" rx="10" fill="#334155"/>
+    <path d="M420 330 h80 v120 l90 150 h-260 l90 -150z" fill="#a7f3d0" stroke="#0f172a" stroke-width="10"/>
+    <rect x="760" y="360" width="70" height="240" rx="30" fill="#fbcfe8" stroke="#0f172a" stroke-width="10"/>
+    <circle cx="1080" cy="500" r="100" fill="#c4b5fd" stroke="#0f172a" stroke-width="10"/><rect x="1050" y="300" width="60" height="110" fill="#c4b5fd" stroke="#0f172a" stroke-width="10"/>
+    <circle cx="460" cy="260" r="18" fill="#a7f3d0" opacity="0.8"/><circle cx="1080" cy="240" r="22" fill="#c4b5fd" opacity="0.8"/>
+    <g stroke="#0ea5e9" stroke-width="8" fill="none" opacity="0.7"><ellipse cx="1350" cy="250" rx="110" ry="40"/><ellipse cx="1350" cy="250" rx="110" ry="40" transform="rotate(60 1350 250)"/><ellipse cx="1350" cy="250" rx="110" ry="40" transform="rotate(120 1350 250)"/></g><circle cx="1350" cy="250" r="16" fill="#0ea5e9"/></g>
+  <rect width="1600" height="1000" fill="#14b8a6" opacity="0.18"/>
+  <rect width="1600" height="1000" fill="url(#shadeg2)"/>
+  <text x="60" y="900" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">Young inventors</text>
+  <text x="62" y="950" fill="#fff" opacity="0.8" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="3">SAMPLE IMAGE · replace with a real photo</text>
+</svg>

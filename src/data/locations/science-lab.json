@@ -1,0 +1,122 @@
+{
+  "id": "science-lab",
+  "name": "Science Laboratory",
+  "order": 4,
+  "category": "Learning",
+  "shortDescription": "Hands-on experiments in physics, chemistry and biology.",
+  "detailedDescription": "The science laboratory is where curiosity turns into experiments. Students work at shared benches with glassware, microscopes and models, always following safety rules guided by their teachers. Projects made here are often shown at science exhibitions.",
+  "thumbnail": "assets/locations/science-lab/thumbnail.svg",
+  "mainImage": {
+    "src": "assets/locations/science-lab/main.svg",
+    "alt": "Science Laboratory (sample illustration)",
+    "caption": "Sample illustration – replace with a real photo"
+  },
+  "panorama": null,
+  "historicalInformation": [
+    "Sample: The laboratory was upgraded with new benches and safety equipment."
+  ],
+  "interestingFacts": [
+    "Safety goggles and lab coats are worn for every experiment.",
+    "Student science projects are displayed at the annual science exhibition."
+  ],
+  "facilities": [
+    "Lab benches with water and gas points",
+    "Microscopes",
+    "Chemistry glassware",
+    "Safety equipment and first-aid kit"
+  ],
+  "achievements": [
+    "Sample: Students regularly present projects at inter-school science exhibitions"
+  ],
+  "relatedImages": [
+    {
+      "src": "assets/locations/science-lab/photo-1.svg",
+      "alt": "Students doing an experiment"
+    },
+    {
+      "src": "assets/locations/science-lab/photo-2.svg",
+      "alt": "Microscope station"
+    },
+    {
+      "src": "assets/locations/science-lab/photo-3.svg",
+      "alt": "Science project display"
+    }
+  ],
+  "videos": [],
+  "hotspots": [
+    {
+      "id": "science-projects",
+      "type": "info",
+      "title": "Science Projects",
+      "description": "Students design and test their own projects – from water filters to simple circuits – and present them to classmates.",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "photos": [
+        {
+          "src": "assets/locations/science-lab/photo-3.svg",
+          "alt": "Project display"
+        }
+      ]
+    },
+    {
+      "id": "lab-equipment",
+      "type": "info",
+      "title": "Laboratory Equipment",
+      "description": "The lab has microscopes, glassware, models and measuring instruments for physics, chemistry and biology.",
+      "position": {
+        "x": 48,
+        "y": 60
+      },
+      "image": {
+        "src": "assets/locations/science-lab/photo-2.svg",
+        "alt": "Microscope"
+      }
+    },
+    {
+      "id": "competitions",
+      "type": "info",
+      "title": "Competitions",
+      "description": "Science competitions and exhibitions give students a chance to share their ideas beyond the classroom.",
+      "position": {
+        "x": 84,
+        "y": 26
+      },
+      "relatedContent": [
+        {
+          "label": "Science exhibitions gallery",
+          "link": "/gallery?category=science-exhibitions"
+        }
+      ]
+    },
+    {
+      "id": "to-computer-lab",
+      "type": "navigation",
+      "title": "Computer Laboratory",
+      "target": "computer-lab",
+      "position": {
+        "x": 92,
+        "y": 72
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "to": "computer-lab",
+      "label": "Next door: computer lab",
+      "direction": "right"
+    },
+    {
+      "to": "classrooms",
+      "label": "Back to classrooms",
+      "direction": "back"
+    }
+  ],
+  "aiContext": "The science lab is next to the computer lab. Experiments always follow safety rules.",
+  "mapPosition": {
+    "x": 18,
+    "y": 62
+  },
+  "isSampleData": true
+}

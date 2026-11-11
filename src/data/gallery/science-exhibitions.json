@@ -1,0 +1,30 @@
+{
+  "id": "science-exhibitions",
+  "title": "Science Exhibitions",
+  "description": "Projects, experiments and young inventors.",
+  "order": 7,
+  "isSampleData": true,
+  "items": [
+    {
+      "id": "science-exhibitions-1",
+      "type": "image",
+      "src": "assets/gallery/science-exhibitions/1.svg",
+      "alt": "Science fair stalls (sample illustration)",
+      "caption": "Science fair stalls"
+    },
+    {
+      "id": "science-exhibitions-2",
+      "type": "image",
+      "src": "assets/gallery/science-exhibitions/2.svg",
+      "alt": "Robotics demo (sample illustration)",
+      "caption": "Robotics demo"
+    },
+    {
+      "id": "science-exhibitions-3",
+      "type": "image",
+      "src": "assets/gallery/science-exhibitions/3.svg",
+      "alt": "Young inventors (sample illustration)",
+      "caption": "Young inventors"
+    }
+  ]
+}

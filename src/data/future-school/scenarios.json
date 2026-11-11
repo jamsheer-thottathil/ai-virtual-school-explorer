@@ -1,0 +1,184 @@
+{
+  "title": "What Will Our School Look Like in 2040?",
+  "subtitle": "Explore imaginative concepts for the school of tomorrow – or describe your own idea and let AI paint the picture.",
+  "notice": "These are imaginative concepts for the exhibition, not the school's actual plans. Visuals are prepared concept illustrations.",
+  "promptSuggestions": [
+    "Robots helping in the science lab",
+    "A solar-powered green campus",
+    "VR field trip to the Moon",
+    "A classroom that adapts to every student"
+  ],
+  "scenarios": [
+    {
+      "id": "ai-classroom",
+      "title": "AI-Powered Classrooms",
+      "tagline": "Lessons that adapt to every learner",
+      "description": "Imagine classrooms where an AI assistant helps the teacher see which concepts each student finds easy or hard, suggesting activities so nobody is left behind.",
+      "icon": "brain",
+      "image": {
+        "src": "assets/future-school/ai-classroom.svg",
+        "alt": "AI-Powered Classrooms – concept illustration"
+      },
+      "features": [
+        "Real-time feedback on practice questions",
+        "Teacher dashboards that highlight who needs help",
+        "Voice-controlled smart boards"
+      ],
+      "keywords": [
+        "ai",
+        "classroom",
+        "smart",
+        "teacher",
+        "lesson",
+        "adaptive"
+      ]
+    },
+    {
+      "id": "robot-assistants",
+      "title": "Robot Teaching Assistants",
+      "tagline": "Helpful robots beside human teachers",
+      "description": "Friendly robots could help with routine tasks – handing out materials, guiding visitors or running language practice – so teachers have more time for students.",
+      "icon": "bot",
+      "image": {
+        "src": "assets/future-school/robot-assistants.svg",
+        "alt": "Robot Teaching Assistants – concept illustration"
+      },
+      "features": [
+        "Robots that guide visitors around campus",
+        "Language practice partners",
+        "Lab helpers that fetch equipment safely"
+      ],
+      "keywords": [
+        "robot",
+        "assistant",
+        "helper",
+        "machine",
+        "teaching"
+      ]
+    },
+    {
+      "id": "smart-labs",
+      "title": "Smart Laboratories",
+      "tagline": "Experiments with sensors and simulations",
+      "description": "Smart labs might combine real experiments with sensors and simulations, letting students test ideas safely before trying them for real.",
+      "icon": "flask",
+      "image": {
+        "src": "assets/future-school/smart-labs.svg",
+        "alt": "Smart Laboratories – concept illustration"
+      },
+      "features": [
+        "Sensor-equipped benches that record data",
+        "Virtual simulations before real experiments",
+        "AI safety alerts"
+      ],
+      "keywords": [
+        "lab",
+        "science",
+        "experiment",
+        "sensor",
+        "simulation",
+        "laboratory"
+      ]
+    },
+    {
+      "id": "vr-education",
+      "title": "Virtual Reality Education",
+      "tagline": "Step inside history and space",
+      "description": "With VR headsets, students could walk through ancient cities, explore the human heart or stand on the Moon – all from the classroom.",
+      "icon": "glasses",
+      "image": {
+        "src": "assets/future-school/vr-education.svg",
+        "alt": "Virtual Reality Education – concept illustration"
+      },
+      "features": [
+        "Virtual field trips",
+        "3D models of science concepts",
+        "Shared VR lessons for the whole class"
+      ],
+      "keywords": [
+        "vr",
+        "virtual",
+        "reality",
+        "headset",
+        "3d",
+        "immersive",
+        "space",
+        "history"
+      ]
+    },
+    {
+      "id": "smart-campus",
+      "title": "Smart Campus",
+      "tagline": "A campus that thinks",
+      "description": "Smart lights, digital notice boards and energy sensors could make the campus safer, greener and easier to navigate.",
+      "icon": "building",
+      "image": {
+        "src": "assets/future-school/smart-campus.svg",
+        "alt": "Smart Campus – concept illustration"
+      },
+      "features": [
+        "Lights that switch off in empty rooms",
+        "Interactive digital notice boards",
+        "Campus app with live updates"
+      ],
+      "keywords": [
+        "campus",
+        "smart",
+        "building",
+        "sensor",
+        "digital",
+        "app"
+      ]
+    },
+    {
+      "id": "eco-school",
+      "title": "Eco-Friendly School",
+      "tagline": "Green by design",
+      "description": "Solar roofs, rainwater harvesting and rooftop gardens could turn the whole school into a living lesson in sustainability.",
+      "icon": "leaf",
+      "image": {
+        "src": "assets/future-school/eco-school.svg",
+        "alt": "Eco-Friendly School – concept illustration"
+      },
+      "features": [
+        "Solar panels on every roof",
+        "Rainwater harvesting for the garden",
+        "Rooftop vegetable gardens"
+      ],
+      "keywords": [
+        "eco",
+        "green",
+        "solar",
+        "environment",
+        "planet",
+        "garden",
+        "sustainable",
+        "climate"
+      ]
+    },
+    {
+      "id": "personalized-learning",
+      "title": "Personalized Learning",
+      "tagline": "Your own learning path",
+      "description": "Every student could have a personal learning path that moves at their pace, follows their interests and celebrates their progress.",
+      "icon": "sparkles",
+      "image": {
+        "src": "assets/future-school/personalized-learning.svg",
+        "alt": "Personalized Learning – concept illustration"
+      },
+      "features": [
+        "Learning paths that match each student's pace",
+        "Projects based on personal interests",
+        "Progress portfolios to share with parents"
+      ],
+      "keywords": [
+        "personal",
+        "personalized",
+        "pace",
+        "interest",
+        "path",
+        "individual"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ai-virtual-school-explorer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI Virtual School Explorer – a static, JSON-driven virtual campus tour with an AI school guide, built for GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.app.json",
+    "validate:content": "node scripts/validate-content.mjs",
+    "assets:placeholders": "node scripts/generate-placeholder-assets.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0",
+    "pannellum": "^2.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.6",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11"
+  },
+  "engines": {
+    "node": ">=18.18"
+  }
+}

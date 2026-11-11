@@ -1,0 +1,114 @@
+{
+  "id": "guess-the-location",
+  "type": "guess-location",
+  "title": "Guess the Location",
+  "description": "Look at the picture and name the place on campus.",
+  "icon": "pin",
+  "order": 2,
+  "accent": "#14b8a6",
+  "badges": [
+    {
+      "id": "bronze",
+      "title": "Sharp Eyes",
+      "description": "Scored 40% or more.",
+      "icon": "medal",
+      "minScorePercent": 40
+    },
+    {
+      "id": "silver",
+      "title": "Pathfinder",
+      "description": "Scored 70% or more.",
+      "icon": "award",
+      "minScorePercent": 70
+    },
+    {
+      "id": "gold",
+      "title": "Master Navigator",
+      "description": "A perfect score!",
+      "icon": "trophy",
+      "minScorePercent": 100
+    }
+  ],
+  "questions": [
+    {
+      "id": "g1",
+      "prompt": "Where on campus is this?",
+      "image": {
+        "src": "assets/locations/library/photo-2.svg",
+        "alt": "Shelves full of colourful books"
+      },
+      "options": [
+        "library",
+        "classrooms",
+        "computer-lab",
+        "auditorium"
+      ],
+      "answer": "library",
+      "hint": "Shhh… it's a quiet place."
+    },
+    {
+      "id": "g2",
+      "prompt": "Which location is shown here?",
+      "image": {
+        "src": "assets/locations/science-lab/photo-1.svg",
+        "alt": "Flasks and a lab bench"
+      },
+      "options": [
+        "garden",
+        "science-lab",
+        "main-building",
+        "playground"
+      ],
+      "answer": "science-lab",
+      "hint": "Don't forget your safety goggles!"
+    },
+    {
+      "id": "g3",
+      "prompt": "Name this place.",
+      "image": {
+        "src": "assets/locations/auditorium/photo-1.svg",
+        "alt": "A stage with red curtains"
+      },
+      "options": [
+        "auditorium",
+        "library",
+        "entrance",
+        "classrooms"
+      ],
+      "answer": "auditorium",
+      "hint": "Lights, music, applause."
+    },
+    {
+      "id": "g4",
+      "prompt": "Where would you find this?",
+      "image": {
+        "src": "assets/locations/garden/photo-2.svg",
+        "alt": "Trees, flowers and a pond"
+      },
+      "options": [
+        "playground",
+        "garden",
+        "computer-lab",
+        "main-building"
+      ],
+      "answer": "garden",
+      "hint": "The eco club's favourite spot."
+    },
+    {
+      "id": "g5",
+      "prompt": "Which location is this?",
+      "image": {
+        "src": "assets/locations/computer-lab/photo-1.svg",
+        "alt": "Rows of computer screens"
+      },
+      "options": [
+        "science-lab",
+        "classrooms",
+        "computer-lab",
+        "library"
+      ],
+      "answer": "computer-lab",
+      "hint": "Code, click, create."
+    }
+  ]
+}

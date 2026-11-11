@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Certificates of merit (sample illustration)">
+  <defs><linearGradient id="shadeg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.65"/></linearGradient></defs>
+  <g><rect width="1600" height="1000" fill="#1e1b4b"/><circle cx="800" cy="480" r="420" fill="#fbbf24" opacity="0.12"/>
+    <path d="M620 220 h360 v120 q0 220 -180 260 q-180 -40 -180 -260z" fill="#fbbf24"/><path d="M620 260 q-140 0 -120 120 q20 110 150 120" stroke="#fbbf24" stroke-width="30" fill="none"/><path d="M980 260 q140 0 120 120 q-20 110 -150 120" stroke="#fbbf24" stroke-width="30" fill="none"/>
+    <rect x="760" y="600" width="80" height="130" fill="#f59e0b"/><rect x="640" y="730" width="320" height="80" rx="10" fill="#92400e"/>
+    <polygon points="800,300 822,360 886,360 834,398 854,460 800,422 746,460 766,398 714,360 778,360" fill="#fff7d6"/></g>
+  <rect width="1600" height="1000" fill="#14b8a6" opacity="0.18"/>
+  <rect width="1600" height="1000" fill="url(#shadeg2)"/>
+  <text x="60" y="900" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">Certificates of merit</text>
+  <text x="62" y="950" fill="#fff" opacity="0.8" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="3">SAMPLE IMAGE · replace with a real photo</text>
+</svg>

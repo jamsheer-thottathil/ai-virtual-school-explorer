@@ -1,0 +1,102 @@
+{
+  "id": "garden",
+  "name": "School Garden",
+  "order": 9,
+  "category": "Environment",
+  "shortDescription": "A green classroom of plants, flowers and a small pond.",
+  "detailedDescription": "The school garden is an outdoor classroom where students learn about plants, insects and the environment. The eco club cares for flower beds, vegetable patches and a small pond, and uses the garden for nature walks and science observations.",
+  "thumbnail": "assets/locations/garden/thumbnail.svg",
+  "mainImage": {
+    "src": "assets/locations/garden/main.svg",
+    "alt": "School Garden (sample illustration)",
+    "caption": "Sample illustration – replace with a real photo"
+  },
+  "panorama": null,
+  "historicalInformation": [
+    "Sample: The garden was started as an eco club project."
+  ],
+  "interestingFacts": [
+    "The pond attracts birds, butterflies and dragonflies.",
+    "Students record plant growth as part of science lessons."
+  ],
+  "facilities": [
+    "Flower beds",
+    "Vegetable patch",
+    "Small pond",
+    "Composting corner"
+  ],
+  "achievements": [
+    "Sample: Eco club recognised for keeping the campus green"
+  ],
+  "relatedImages": [
+    {
+      "src": "assets/locations/garden/photo-1.svg",
+      "alt": "Flower beds"
+    },
+    {
+      "src": "assets/locations/garden/photo-2.svg",
+      "alt": "Garden pond"
+    }
+  ],
+  "videos": [],
+  "hotspots": [
+    {
+      "id": "eco-club",
+      "type": "info",
+      "title": "Eco Club",
+      "description": "The eco club plants, waters and looks after the garden, and runs campaigns on saving water and reducing waste.",
+      "position": {
+        "x": 20,
+        "y": 40
+      },
+      "photos": [
+        {
+          "src": "assets/locations/garden/photo-1.svg",
+          "alt": "Eco club at work"
+        }
+      ]
+    },
+    {
+      "id": "pond",
+      "type": "info",
+      "title": "Garden Pond",
+      "description": "The pond is home to water plants and visiting birds – a favourite spot for nature observation.",
+      "position": {
+        "x": 68,
+        "y": 78
+      },
+      "image": {
+        "src": "assets/locations/garden/photo-2.svg",
+        "alt": "Pond"
+      }
+    },
+    {
+      "id": "to-entrance",
+      "type": "navigation",
+      "title": "Main Entrance",
+      "target": "entrance",
+      "position": {
+        "x": 50,
+        "y": 94
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "to": "entrance",
+      "label": "Back to the entrance",
+      "direction": "back"
+    },
+    {
+      "to": "auditorium",
+      "label": "Go to the auditorium",
+      "direction": "right"
+    }
+  ],
+  "aiContext": "The garden is the last stop of the tour. The eco club looks after it.",
+  "mapPosition": {
+    "x": 16,
+    "y": 82
+  },
+  "isSampleData": true
+}

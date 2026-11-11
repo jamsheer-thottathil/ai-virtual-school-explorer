@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/ai-virtual-school-explorer/location.schema.json",
+  "title": "Campus location",
+  "description": "One file per location in src/data/locations/. Asset paths are relative to /public (no leading slash).",
+  "type": "object",
+  "required": [
+    "id", "name", "order", "category", "shortDescription", "detailedDescription",
+    "thumbnail", "mainImage", "panorama", "historicalInformation", "interestingFacts",
+    "facilities", "achievements", "relatedImages", "videos", "hotspots", "navigation",
+    "aiContext", "mapPosition", "isSampleData"
+  ],
+  "$defs": {
+    "image": {
+      "type": "object",
+      "required": ["src", "alt"],
+      "properties": {
+        "src": { "type": "string" },
+        "alt": { "type": "string" },
+        "caption": { "type": "string" }
+      }
+    },
+    "video": {
+      "type": "object",
+      "required": ["src", "title"],
+      "properties": {
+        "src": { "type": "string" },
+        "title": { "type": "string" },
+        "poster": { "type": "string" },
+        "caption": { "type": "string" },
+        "mimeType": { "type": "string" }
+      }
+    },
+    "percentPosition": {
+      "type": "object",
+      "required": ["x", "y"],
+      "properties": {
+        "x": { "type": "number", "minimum": 0, "maximum": 100 },
+        "y": { "type": "number", "minimum": 0, "maximum": 100 }
+      }
+    },
+    "hotspot": {
+      "type": "object",
+      "required": ["id", "type", "title", "position"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "type": { "enum": ["info", "navigation"] },
+        "title": { "type": "string" },
+        "label": { "type": "string" },
+        "description": { "type": "string" },
+        "position": { "$ref": "#/$defs/percentPosition" },
+        "panoramaPosition": {
+          "type": "object",
+          "required": ["yaw", "pitch"],
+          "properties": {
+            "yaw": { "type": "number", "minimum": -180, "maximum": 180 },
+            "pitch": { "type": "number", "minimum": -90, "maximum": 90 }
+          }
+        },
+        "target": { "type": "string", "description": "Location id (navigation hotspots only)" },
+        "image": { "$ref": "#/$defs/image" },
+        "photos": { "type": "array", "items": { "$ref": "#/$defs/image" } },
+        "videos": { "type": "array", "items": { "$ref": "#/$defs/video" } },
+        "historicalNotes": { "type": "array", "items": { "type": "string" } },
+        "relatedContent": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "link"],
+            "properties": { "label": { "type": "string" }, "link": { "type": "string" } }
+          }
+        },
+        "aiQuestion": { "type": "string" }
+      }
+    }
+  },
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Must match the file name and the asset folder name." },
+    "name": { "type": "string" },
+    "order": { "type": "integer", "description": "Tour order (1 = first stop)." },
+    "category": { "type": "string" },
+    "shortDescription": { "type": "string", "maxLength": 180 },
+    "detailedDescription": { "type": "string" },
+    "thumbnail": { "type": "string" },
+    "mainImage": { "$ref": "#/$defs/image" },
+    "panorama": {
+      "description": "Only for REAL equirectangular 360° images (2:1). Use null for ordinary photos.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["src"],
+          "properties": {
+            "src": { "type": "string" },
+            "preview": { "type": "string" },
+            "initialYaw": { "type": "number" },
+            "initialPitch": { "type": "number" },
+            "initialHfov": { "type": "number" },
+            "autoRotate": { "type": "number" },
+            "haov": { "type": "number" },
+            "vaov": { "type": "number" }
+          }
+        }
+      ]
+    },
+    "historicalInformation": { "type": "array", "items": { "type": "string" } },
+    "interestingFacts": { "type": "array", "items": { "type": "string" } },
+    "facilities": { "type": "array", "items": { "type": "string" } },
+    "achievements": { "type": "array", "items": { "type": "string" } },
+    "relatedImages": { "type": "array", "items": { "$ref": "#/$defs/image" } },
+    "videos": { "type": "array", "items": { "$ref": "#/$defs/video" } },
+    "hotspots": { "type": "array", "items": { "$ref": "#/$defs/hotspot" } },
+    "navigation": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["to", "label"],
+        "properties": {
+          "to": { "type": "string" },
+          "label": { "type": "string" },
+          "direction": { "enum": ["forward", "back", "left", "right", "up", "down"] }
+        }
+      }
+    },
+    "aiContext": { "type": "string", "description": "Extra facts given to the AI guide while a visitor is at this location." },
+    "mapPosition": { "$ref": "#/$defs/percentPosition" },
+    "isSampleData": { "type": "boolean" }
+  }
+}

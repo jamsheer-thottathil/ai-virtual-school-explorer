@@ -1,0 +1,180 @@
+{
+  "title": "Our journey through time",
+  "subtitle": "Tap a milestone, use the year selector or swipe through the timeline to explore how our school grew.",
+  "isSampleData": true,
+  "notice": "Sample timeline: the milestones, years and details below are illustrative placeholders, not verified school records. Replace them in src/data/history/timeline.json.",
+  "entries": [
+    {
+      "id": "establishment",
+      "year": "Year 1",
+      "title": "School Establishment",
+      "category": "Founding",
+      "summary": "The school opens its doors to its first students.",
+      "details": [
+        "Sample: Classes begin with a small number of students and teachers.",
+        "Replace this entry with the real founding year, founders and first-day story."
+      ],
+      "image": {
+        "src": "assets/history/establishment.svg",
+        "alt": "School Establishment (sample illustration)"
+      },
+      "gallery": [
+        {
+          "src": "assets/gallery/history/1.svg",
+          "alt": "Early campus (sample)",
+          "caption": "The early campus"
+        },
+        {
+          "src": "assets/gallery/history/2.svg",
+          "alt": "First batch of students (sample)",
+          "caption": "First batch of students"
+        }
+      ],
+      "isSampleData": true
+    },
+    {
+      "id": "first-principal",
+      "year": "Year 2",
+      "title": "First Principal",
+      "category": "Leadership",
+      "summary": "The first principal shapes the school's values and daily routines.",
+      "details": [
+        "Sample: Morning assembly and house system introduced.",
+        "Replace with the real name and contributions of the first principal, if known."
+      ],
+      "image": {
+        "src": "assets/history/first-principal.svg",
+        "alt": "First Principal (sample illustration)"
+      },
+      "gallery": [
+        {
+          "src": "assets/gallery/history/1.svg",
+          "alt": "Early campus (sample)",
+          "caption": "The early campus"
+        },
+        {
+          "src": "assets/gallery/history/2.svg",
+          "alt": "First batch of students (sample)",
+          "caption": "First batch of students"
+        }
+      ],
+      "isSampleData": true
+    },
+    {
+      "id": "first-building",
+      "year": "Year 5",
+      "title": "First Campus Building",
+      "category": "Infrastructure",
+      "summary": "The first permanent building – today's Main Building – is completed.",
+      "details": [
+        "Sample: Classrooms and the office move into the new building.",
+        "The clock tower later becomes a school symbol."
+      ],
+      "image": {
+        "src": "assets/history/first-building.svg",
+        "alt": "First Campus Building (sample illustration)"
+      },
+      "gallery": [
+        {
+          "src": "assets/gallery/history/1.svg",
+          "alt": "Early campus (sample)",
+          "caption": "The early campus"
+        },
+        {
+          "src": "assets/gallery/history/2.svg",
+          "alt": "First batch of students (sample)",
+          "caption": "First batch of students"
+        }
+      ],
+      "isSampleData": true
+    },
+    {
+      "id": "infrastructure",
+      "year": "Year 12",
+      "title": "Infrastructure Growth",
+      "category": "Infrastructure",
+      "summary": "New wings, a library and laboratories are added as the school grows.",
+      "details": [
+        "Sample: The library moves from a reading room into its own space.",
+        "Sample: Science laboratory set up for practical work."
+      ],
+      "image": {
+        "src": "assets/history/infrastructure.svg",
+        "alt": "Infrastructure Growth (sample illustration)"
+      },
+      "gallery": [
+        {
+          "src": "assets/locations/main-building/photo-1.svg",
+          "alt": "Campus view (sample)"
+        }
+      ],
+      "isSampleData": true
+    },
+    {
+      "id": "academics",
+      "year": "Year 18",
+      "title": "Academic Achievements",
+      "category": "Academics",
+      "summary": "Students begin presenting projects at inter-school exhibitions.",
+      "details": [
+        "Sample: First science exhibition held on campus.",
+        "Replace with real academic results or recognitions."
+      ],
+      "image": {
+        "src": "assets/history/academics.svg",
+        "alt": "Academic Achievements (sample illustration)"
+      },
+      "gallery": [
+        {
+          "src": "assets/locations/main-building/photo-1.svg",
+          "alt": "Campus view (sample)"
+        }
+      ],
+      "isSampleData": true
+    },
+    {
+      "id": "sports",
+      "year": "Year 20",
+      "title": "Sports Achievements",
+      "category": "Sports",
+      "summary": "The playground and running track host the first annual sports day.",
+      "details": [
+        "Sample: Inter-house championship introduced.",
+        "Replace with real sports milestones."
+      ],
+      "image": {
+        "src": "assets/history/sports.svg",
+        "alt": "Sports Achievements (sample illustration)"
+      },
+      "gallery": [
+        {
+          "src": "assets/locations/main-building/photo-1.svg",
+          "alt": "Campus view (sample)"
+        }
+      ],
+      "isSampleData": true
+    },
+    {
+      "id": "modern-expansion",
+      "year": "Today",
+      "title": "Modern Expansion",
+      "category": "Innovation",
+      "summary": "Smart classrooms, a computer lab and AI projects bring learning into the digital age.",
+      "details": [
+        "Sample: Smart boards installed in classrooms.",
+        "This AI Virtual School Explorer is created for the school AI exhibition."
+      ],
+      "image": {
+        "src": "assets/history/modern-expansion.svg",
+        "alt": "Modern Expansion (sample illustration)"
+      },
+      "gallery": [
+        {
+          "src": "assets/locations/main-building/photo-1.svg",
+          "alt": "Campus view (sample)"
+        }
+      ],
+      "isSampleData": true
+    }
+  ]
+}

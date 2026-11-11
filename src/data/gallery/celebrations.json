@@ -1,0 +1,30 @@
+{
+  "id": "celebrations",
+  "title": "Celebrations",
+  "description": "Festivals, annual day and special occasions.",
+  "order": 8,
+  "isSampleData": true,
+  "items": [
+    {
+      "id": "celebrations-1",
+      "type": "image",
+      "src": "assets/gallery/celebrations/1.svg",
+      "alt": "Annual day (sample illustration)",
+      "caption": "Annual day"
+    },
+    {
+      "id": "celebrations-2",
+      "type": "image",
+      "src": "assets/gallery/celebrations/2.svg",
+      "alt": "Festival celebration (sample illustration)",
+      "caption": "Festival celebration"
+    },
+    {
+      "id": "celebrations-3",
+      "type": "image",
+      "src": "assets/gallery/celebrations/3.svg",
+      "alt": "Graduation day (sample illustration)",
+      "caption": "Graduation day"
+    }
+  ]
+}

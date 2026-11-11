@@ -1,0 +1,30 @@
+{
+  "id": "teachers",
+  "title": "Teachers",
+  "description": "The educators who guide and inspire our students.",
+  "order": 3,
+  "isSampleData": true,
+  "items": [
+    {
+      "id": "teachers-1",
+      "type": "image",
+      "src": "assets/gallery/teachers/1.svg",
+      "alt": "Teachers planning together (sample illustration)",
+      "caption": "Teachers planning together"
+    },
+    {
+      "id": "teachers-2",
+      "type": "image",
+      "src": "assets/gallery/teachers/2.svg",
+      "alt": "Mentoring session (sample illustration)",
+      "caption": "Mentoring session"
+    },
+    {
+      "id": "teachers-3",
+      "type": "image",
+      "src": "assets/gallery/teachers/3.svg",
+      "alt": "Staff workshop (sample illustration)",
+      "caption": "Staff workshop"
+    }
+  ]
+}

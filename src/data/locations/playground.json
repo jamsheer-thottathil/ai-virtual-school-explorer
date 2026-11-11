@@ -1,0 +1,160 @@
+{
+  "id": "playground",
+  "name": "Playground",
+  "order": 7,
+  "category": "Sports",
+  "shortDescription": "Open fields for sports, games and sports day.",
+  "detailedDescription": "The playground is the most energetic place on campus. It has a football field, a running track and space for games and physical education classes. The annual sports day and house competitions are held here.",
+  "thumbnail": "assets/locations/playground/thumbnail.svg",
+  "mainImage": {
+    "src": "assets/locations/playground/main.svg",
+    "alt": "Playground (sample illustration)",
+    "caption": "Sample illustration – replace with a real photo"
+  },
+  "panorama": {
+    "src": "assets/panorama/playground-360.jpg",
+    "preview": "assets/panorama/playground-360-preview.jpg",
+    "initialYaw": 0,
+    "initialPitch": -4,
+    "initialHfov": 105,
+    "autoRotate": -2
+  },
+  "historicalInformation": [
+    "Sample: The running track was marked out for the first annual sports day."
+  ],
+  "interestingFacts": [
+    "The field is used for football, athletics and morning assemblies.",
+    "House teams compete for points on sports day."
+  ],
+  "facilities": [
+    "Football field",
+    "Running track",
+    "Pavilion",
+    "Sports equipment room"
+  ],
+  "achievements": [
+    "Sample: Annual sports day with inter-house championship"
+  ],
+  "relatedImages": [
+    {
+      "src": "assets/locations/playground/photo-1.svg",
+      "alt": "Sports day race"
+    },
+    {
+      "src": "assets/locations/playground/photo-2.svg",
+      "alt": "Football practice"
+    }
+  ],
+  "videos": [
+    {
+      "src": "assets/videos/campus-tour-sample.mp4",
+      "title": "Campus tour (sample video)",
+      "poster": "assets/videos/campus-tour-sample-poster.jpg",
+      "caption": "Sample video – replace with a real campus clip."
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "sports-achievements",
+      "type": "info",
+      "title": "Sports Achievements",
+      "description": "Students take part in athletics, football and team games, with house points earned throughout the year.",
+      "position": {
+        "x": 50,
+        "y": 48
+      },
+      "panoramaPosition": {
+        "yaw": 0,
+        "pitch": 4
+      },
+      "relatedContent": [
+        {
+          "label": "Sports gallery",
+          "link": "/gallery?category=sports"
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "type": "info",
+      "title": "Events",
+      "description": "Sports day, fitness week and friendly matches bring the whole school together on the field.",
+      "position": {
+        "x": 20,
+        "y": 40
+      },
+      "panoramaPosition": {
+        "yaw": -30,
+        "pitch": -3
+      },
+      "photos": [
+        {
+          "src": "assets/locations/playground/photo-1.svg",
+          "alt": "Sports day"
+        }
+      ],
+      "videos": [
+        {
+          "src": "assets/videos/campus-tour-sample.mp4",
+          "title": "Campus tour (sample video)",
+          "poster": "assets/videos/campus-tour-sample-poster.jpg",
+          "caption": "Sample video – replace with a real campus clip."
+        }
+      ]
+    },
+    {
+      "id": "championships",
+      "type": "info",
+      "title": "Championships",
+      "description": "The inter-house championship is decided on sports day.",
+      "position": {
+        "x": 80,
+        "y": 40
+      },
+      "panoramaPosition": {
+        "yaw": 40,
+        "pitch": -2
+      },
+      "historicalNotes": [
+        "Sample: The house championship trophy is displayed in the Main Building."
+      ]
+    },
+    {
+      "id": "to-auditorium",
+      "type": "navigation",
+      "title": "Auditorium",
+      "target": "auditorium",
+      "position": {
+        "x": 88,
+        "y": 62
+      },
+      "panoramaPosition": {
+        "yaw": 120,
+        "pitch": -6
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "to": "auditorium",
+      "label": "Walk to the auditorium",
+      "direction": "right"
+    },
+    {
+      "to": "entrance",
+      "label": "Back to the entrance",
+      "direction": "back"
+    },
+    {
+      "to": "garden",
+      "label": "Go to the garden",
+      "direction": "left"
+    }
+  ],
+  "aiContext": "The playground hosts sports day and the inter-house championship. The auditorium is close by.",
+  "mapPosition": {
+    "x": 78,
+    "y": 24
+  },
+  "isSampleData": true
+}

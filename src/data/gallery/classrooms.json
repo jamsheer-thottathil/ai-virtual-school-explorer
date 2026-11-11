@@ -1,0 +1,30 @@
+{
+  "id": "classrooms",
+  "title": "Classrooms",
+  "description": "Everyday learning in our smart classrooms.",
+  "order": 2,
+  "isSampleData": true,
+  "items": [
+    {
+      "id": "classrooms-1",
+      "type": "image",
+      "src": "assets/gallery/classrooms/1.svg",
+      "alt": "Smart classroom session (sample illustration)",
+      "caption": "Smart classroom session"
+    },
+    {
+      "id": "classrooms-2",
+      "type": "image",
+      "src": "assets/gallery/classrooms/2.svg",
+      "alt": "Group project time (sample illustration)",
+      "caption": "Group project time"
+    },
+    {
+      "id": "classrooms-3",
+      "type": "image",
+      "src": "assets/gallery/classrooms/3.svg",
+      "alt": "Learning corner (sample illustration)",
+      "caption": "Learning corner"
+    }
+  ]
+}

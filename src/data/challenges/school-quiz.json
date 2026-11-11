@@ -1,0 +1,106 @@
+{
+  "id": "school-quiz",
+  "type": "quiz",
+  "title": "School Knowledge Quiz",
+  "description": "How well do you know our campus? Answers are hidden in the virtual tour.",
+  "icon": "graduation",
+  "order": 1,
+  "accent": "#6366f1",
+  "badges": [
+    {
+      "id": "bronze",
+      "title": "Campus Explorer",
+      "description": "Scored 40% or more.",
+      "icon": "medal",
+      "minScorePercent": 40
+    },
+    {
+      "id": "silver",
+      "title": "Campus Expert",
+      "description": "Scored 70% or more.",
+      "icon": "award",
+      "minScorePercent": 70
+    },
+    {
+      "id": "gold",
+      "title": "Campus Champion",
+      "description": "A perfect score!",
+      "icon": "trophy",
+      "minScorePercent": 100
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which location is the first stop of the virtual tour?",
+      "options": [
+        "Library",
+        "Main Entrance",
+        "Auditorium",
+        "Playground"
+      ],
+      "answerIndex": 1,
+      "explanation": "The tour starts at the Main Entrance, where the path leads to the Main Building."
+    },
+    {
+      "id": "q2",
+      "question": "Which building has the clock tower?",
+      "options": [
+        "Main Building",
+        "Computer Laboratory",
+        "Auditorium",
+        "School Garden"
+      ],
+      "answerIndex": 0,
+      "explanation": "The clock tower crowns the Main Building."
+    },
+    {
+      "id": "q3",
+      "question": "Where are microscopes and chemistry glassware used?",
+      "options": [
+        "Library",
+        "Playground",
+        "Science Laboratory",
+        "Auditorium"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Science Laboratory has microscopes, glassware and safety equipment."
+    },
+    {
+      "id": "q4",
+      "question": "Where is the annual sports day held?",
+      "options": [
+        "Playground",
+        "Classrooms",
+        "Main Building",
+        "Library"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sports day and the inter-house championship take place on the playground."
+    },
+    {
+      "id": "q5",
+      "question": "Who looks after the school garden?",
+      "options": [
+        "The sports team",
+        "The eco club",
+        "The library staff",
+        "The drama club"
+      ],
+      "answerIndex": 1,
+      "explanation": "The eco club cares for the flower beds, vegetable patch and pond."
+    },
+    {
+      "id": "q6",
+      "question": "What do smart boards in classrooms help with?",
+      "options": [
+        "Cooking lunch",
+        "Interactive lessons and videos",
+        "Watering plants",
+        "Ringing the bell"
+      ],
+      "answerIndex": 1,
+      "explanation": "Smart boards support interactive lessons, videos and quizzes."
+    }
+  ]
+}

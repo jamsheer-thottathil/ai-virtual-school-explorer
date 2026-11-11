@@ -1,0 +1,119 @@
+{
+  "id": "auditorium",
+  "name": "Auditorium",
+  "order": 8,
+  "category": "Arts & Culture",
+  "shortDescription": "The stage for assemblies, performances and celebrations.",
+  "detailedDescription": "The auditorium is where the school gathers for assemblies, annual day, music and drama performances, and guest talks. Its stage lights and sound system turn every event into a memorable show.",
+  "thumbnail": "assets/locations/auditorium/thumbnail.svg",
+  "mainImage": {
+    "src": "assets/locations/auditorium/main.svg",
+    "alt": "Auditorium (sample illustration)",
+    "caption": "Sample illustration – replace with a real photo"
+  },
+  "panorama": null,
+  "historicalInformation": [
+    "Sample: The auditorium hosts the annual day celebration every year."
+  ],
+  "interestingFacts": [
+    "Students help manage lights and sound during school events.",
+    "The stage is used for music, drama, debates and award ceremonies."
+  ],
+  "facilities": [
+    "Stage with lighting",
+    "Sound system",
+    "Audience seating",
+    "Green room"
+  ],
+  "achievements": [
+    "Sample: Annual cultural festival with music, dance and drama"
+  ],
+  "relatedImages": [
+    {
+      "src": "assets/locations/auditorium/photo-1.svg",
+      "alt": "Annual day performance"
+    },
+    {
+      "src": "assets/locations/auditorium/photo-2.svg",
+      "alt": "Music concert"
+    }
+  ],
+  "videos": [],
+  "hotspots": [
+    {
+      "id": "stage",
+      "type": "info",
+      "title": "The Stage",
+      "description": "Performances, assemblies and award ceremonies all happen on this stage.",
+      "position": {
+        "x": 50,
+        "y": 44
+      },
+      "photos": [
+        {
+          "src": "assets/locations/auditorium/photo-1.svg",
+          "alt": "Annual day"
+        },
+        {
+          "src": "assets/locations/auditorium/photo-2.svg",
+          "alt": "Concert"
+        }
+      ],
+      "relatedContent": [
+        {
+          "label": "Arts & culture gallery",
+          "link": "/gallery?category=arts-culture"
+        }
+      ]
+    },
+    {
+      "id": "events-auditorium",
+      "type": "info",
+      "title": "Events & Celebrations",
+      "description": "Annual day, festivals and graduation ceremonies fill the auditorium with families and friends.",
+      "position": {
+        "x": 20,
+        "y": 80
+      },
+      "relatedContent": [
+        {
+          "label": "Celebrations gallery",
+          "link": "/gallery?category=celebrations"
+        }
+      ]
+    },
+    {
+      "id": "to-garden",
+      "type": "navigation",
+      "title": "School Garden",
+      "target": "garden",
+      "position": {
+        "x": 90,
+        "y": 85
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "to": "garden",
+      "label": "Step out to the garden",
+      "direction": "forward"
+    },
+    {
+      "to": "playground",
+      "label": "Back to the playground",
+      "direction": "back"
+    },
+    {
+      "to": "main-building",
+      "label": "Go to the main building",
+      "direction": "left"
+    }
+  ],
+  "aiContext": "The auditorium is the venue for assemblies and cultural events.",
+  "mapPosition": {
+    "x": 76,
+    "y": 61
+  },
+  "isSampleData": true
+}

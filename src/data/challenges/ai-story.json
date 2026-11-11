@@ -1,0 +1,46 @@
+{
+  "id": "ai-story",
+  "type": "story",
+  "title": "AI Story Challenge",
+  "description": "Pick a hero, a place and a theme – the AI storyteller writes a campus adventure just for you.",
+  "icon": "wand",
+  "order": 5,
+  "accent": "#ec4899",
+  "minimumChoices": 2,
+  "badges": [
+    {
+      "id": "storyteller",
+      "title": "Campus Storyteller",
+      "description": "You created an AI campus story!",
+      "icon": "book",
+      "minScorePercent": 0
+    }
+  ],
+  "characters": [
+    "a curious student",
+    "a friendly robot",
+    "the school's wise owl",
+    "a time-travelling teacher",
+    "a team of young scientists"
+  ],
+  "places": [
+    "library",
+    "science-lab",
+    "computer-lab",
+    "garden",
+    "auditorium",
+    "playground"
+  ],
+  "themes": [
+    "a mystery to solve",
+    "an invention that changes everything",
+    "friendship and teamwork",
+    "a journey to the year 2040",
+    "saving the planet"
+  ],
+  "templates": [
+    "One bright morning, {character} walked into the {place} at {schoolName}. Something unusual was waiting there: {theme}! With a notebook in hand and a head full of questions, they looked closer, asked for help from friends, and slowly put the clues together. By the end of the day, everyone in the {place} was smiling – because the best discoveries happen when we are curious together.",
+    "Nobody expected {character} to appear in the {place} that afternoon. But there they were, ready for {theme}. Step by step, they tried an idea, failed, laughed, and tried again. When the school bell finally rang, the {place} felt different – brighter, braver and full of possibility. And that was just the beginning.",
+    "Legend says that whenever {character} visits the {place}, adventure follows. Today's adventure was {theme}. Using kindness, teamwork and a little bit of science, the mission was a success. As the sun set over {schoolName}, {character} whispered, \"Tomorrow, let's explore even further.\""
+  ]
+}

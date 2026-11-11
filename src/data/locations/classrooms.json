@@ -1,0 +1,125 @@
+{
+  "id": "classrooms",
+  "name": "Classrooms",
+  "order": 3,
+  "category": "Learning",
+  "shortDescription": "Bright smart classrooms where everyday learning happens.",
+  "detailedDescription": "The classroom wing has bright, airy rooms equipped with smart boards. Desks can be arranged for group work, and display walls show student projects. Each classroom is designed to support discussion, collaboration and hands-on learning.",
+  "thumbnail": "assets/locations/classrooms/thumbnail.svg",
+  "mainImage": {
+    "src": "assets/locations/classrooms/main.svg",
+    "alt": "Classrooms (sample illustration)",
+    "caption": "Sample illustration – replace with a real photo"
+  },
+  "panorama": null,
+  "historicalInformation": [
+    "Sample: The classroom wing was extended as the school grew."
+  ],
+  "interestingFacts": [
+    "Smart boards let teachers show videos, diagrams and live demonstrations.",
+    "Desks can be rearranged in minutes for group projects."
+  ],
+  "facilities": [
+    "Smart boards",
+    "Flexible seating",
+    "Project display walls",
+    "Natural lighting"
+  ],
+  "achievements": [],
+  "relatedImages": [
+    {
+      "src": "assets/locations/classrooms/photo-1.svg",
+      "alt": "Students in a smart classroom"
+    },
+    {
+      "src": "assets/locations/classrooms/photo-2.svg",
+      "alt": "Group project display"
+    }
+  ],
+  "videos": [],
+  "hotspots": [
+    {
+      "id": "smart-classroom",
+      "type": "info",
+      "title": "Smart Classroom Features",
+      "description": "Each room has a smart board for interactive lessons, videos and quizzes, plus space for display of student work.",
+      "position": {
+        "x": 50,
+        "y": 30
+      },
+      "image": {
+        "src": "assets/locations/classrooms/photo-1.svg",
+        "alt": "Smart board"
+      }
+    },
+    {
+      "id": "student-activities",
+      "type": "info",
+      "title": "Student Activities",
+      "description": "Students take part in debates, presentations and group projects inside the classroom.",
+      "position": {
+        "x": 88,
+        "y": 30
+      },
+      "photos": [
+        {
+          "src": "assets/locations/classrooms/photo-2.svg",
+          "alt": "Group work"
+        },
+        {
+          "src": "assets/locations/classrooms/photo-3.svg",
+          "alt": "Presentation"
+        }
+      ]
+    },
+    {
+      "id": "learning-programs",
+      "type": "info",
+      "title": "Learning Programs",
+      "description": "Learning programs combine textbooks with projects, reading time and activity-based learning.",
+      "position": {
+        "x": 30,
+        "y": 80
+      },
+      "relatedContent": [
+        {
+          "label": "Classroom gallery",
+          "link": "/gallery?category=classrooms"
+        }
+      ]
+    },
+    {
+      "id": "to-library",
+      "type": "navigation",
+      "title": "Library",
+      "target": "library",
+      "position": {
+        "x": 8,
+        "y": 40
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "to": "library",
+      "label": "Walk to the library",
+      "direction": "forward"
+    },
+    {
+      "to": "science-lab",
+      "label": "Go to the science lab",
+      "direction": "right"
+    },
+    {
+      "to": "main-building",
+      "label": "Back to the main building",
+      "direction": "back"
+    }
+  ],
+  "aiContext": "Classrooms are in the wing connected to the Main Building. The library is the next stop.",
+  "mapPosition": {
+    "x": 26,
+    "y": 40
+  },
+  "isSampleData": true
+}

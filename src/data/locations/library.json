@@ -1,0 +1,126 @@
+{
+  "id": "library",
+  "name": "Library",
+  "order": 6,
+  "category": "Learning",
+  "shortDescription": "A quiet world of books, stories and research.",
+  "detailedDescription": "The library is a calm space for reading, research and discovery. Shelves hold storybooks, reference books, magazines and newspapers. Reading programs, book clubs and library periods help students build a lifelong reading habit.",
+  "thumbnail": "assets/locations/library/thumbnail.svg",
+  "mainImage": {
+    "src": "assets/locations/library/main.svg",
+    "alt": "Library (sample illustration)",
+    "caption": "Sample illustration – replace with a real photo"
+  },
+  "panorama": null,
+  "historicalInformation": [
+    "Sample: The library began as a small reading room and was expanded into a dedicated library."
+  ],
+  "interestingFacts": [
+    "Books are arranged by subject so students can find them easily.",
+    "A reading corner is set aside for younger students."
+  ],
+  "facilities": [
+    "Reading room",
+    "Reference section",
+    "Story corner for younger students",
+    "Newspapers and magazines"
+  ],
+  "achievements": [
+    "Sample: Annual reading challenge for all classes"
+  ],
+  "relatedImages": [
+    {
+      "src": "assets/locations/library/photo-1.svg",
+      "alt": "Reading room"
+    },
+    {
+      "src": "assets/locations/library/photo-2.svg",
+      "alt": "Bookshelves"
+    },
+    {
+      "src": "assets/locations/library/photo-3.svg",
+      "alt": "Story corner"
+    }
+  ],
+  "videos": [],
+  "hotspots": [
+    {
+      "id": "reading-programs",
+      "type": "info",
+      "title": "Reading Programs",
+      "description": "Reading programs include library periods, book clubs and an annual reading challenge.",
+      "position": {
+        "x": 20,
+        "y": 25
+      },
+      "photos": [
+        {
+          "src": "assets/locations/library/photo-3.svg",
+          "alt": "Story corner"
+        }
+      ]
+    },
+    {
+      "id": "library-collections",
+      "type": "info",
+      "title": "Library Collections",
+      "description": "The collection includes fiction, non-fiction, reference books, magazines and newspapers.",
+      "position": {
+        "x": 50,
+        "y": 50
+      },
+      "image": {
+        "src": "assets/locations/library/photo-2.svg",
+        "alt": "Bookshelves"
+      }
+    },
+    {
+      "id": "library-history",
+      "type": "info",
+      "title": "Library History",
+      "description": "The library grew from a small reading room into one of the busiest places on campus.",
+      "position": {
+        "x": 80,
+        "y": 25
+      },
+      "historicalNotes": [
+        "Sample: Started as a reading room.",
+        "Sample: Expanded into a dedicated library."
+      ],
+      "relatedContent": [
+        {
+          "label": "History timeline",
+          "link": "/history"
+        }
+      ]
+    },
+    {
+      "id": "to-classrooms-l",
+      "type": "navigation",
+      "title": "Classrooms",
+      "target": "classrooms",
+      "position": {
+        "x": 50,
+        "y": 90
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "to": "classrooms",
+      "label": "Back to classrooms",
+      "direction": "back"
+    },
+    {
+      "to": "auditorium",
+      "label": "Go to the auditorium",
+      "direction": "forward"
+    }
+  ],
+  "aiContext": "The library is a quiet zone. Visitors can ask about reading programs, collections and the library's history.",
+  "mapPosition": {
+    "x": 30,
+    "y": 20
+  },
+  "isSampleData": true
+}

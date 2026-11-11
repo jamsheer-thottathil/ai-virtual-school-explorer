@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      // GitHub Pages fallback: turn  /repo/campus/library  into  /repo/#/campus/library
+      // (the app uses hash routing, so every real page lives under index.html).
+      (function () {
+        // Loop guard (e.g. on a user/organisation site without a repo sub-path).
+        try {
+          if (sessionStorage.getItem('ave-404') === location.pathname) {
+            sessionStorage.removeItem('ave-404');
+            location.replace('/');
+            return;
+          }
+          sessionStorage.setItem('ave-404', location.pathname);
+        } catch (e) {}
+        var parts = location.pathname.split('/').filter(Boolean);
+        var isProjectSite = location.hostname.endsWith('github.io') && parts.length > 0;
+        var base = isProjectSite ? '/' + parts.shift() + '/' : '/';
+        var route = parts.join('/');
+        location.replace(base + (route ? '#/' + route : '') + location.search);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to the virtual school explorer… <a href="/">Open the home page</a>.</p>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+{
+  "id": "computer-lab",
+  "name": "Computer Laboratory",
+  "order": 5,
+  "category": "Technology",
+  "shortDescription": "Coding, digital skills and AI projects.",
+  "detailedDescription": "The computer laboratory gives every student access to a computer for coding, research and digital creativity. Students learn programming basics, internet safety and how artificial intelligence works – including projects created for this AI exhibition.",
+  "thumbnail": "assets/locations/computer-lab/thumbnail.svg",
+  "mainImage": {
+    "src": "assets/locations/computer-lab/main.svg",
+    "alt": "Computer Laboratory (sample illustration)",
+    "caption": "Sample illustration – replace with a real photo"
+  },
+  "panorama": null,
+  "historicalInformation": [
+    "Sample: The computer lab was set up to introduce digital skills to all classes."
+  ],
+  "interestingFacts": [
+    "This virtual school explorer is an example of a student-friendly AI project.",
+    "Students learn internet safety before they start online research."
+  ],
+  "facilities": [
+    "Student computers",
+    "Projector",
+    "Internet access",
+    "Coding and AI learning software"
+  ],
+  "achievements": [
+    "Sample: Student AI and coding projects presented at the school AI exhibition"
+  ],
+  "relatedImages": [
+    {
+      "src": "assets/locations/computer-lab/photo-1.svg",
+      "alt": "Students coding"
+    },
+    {
+      "src": "assets/locations/computer-lab/photo-2.svg",
+      "alt": "AI project demo"
+    }
+  ],
+  "videos": [],
+  "hotspots": [
+    {
+      "id": "coding-corner",
+      "type": "info",
+      "title": "Coding Corner",
+      "description": "Students learn programming step by step – from block coding to writing their first lines of code.",
+      "position": {
+        "x": 30,
+        "y": 40
+      },
+      "photos": [
+        {
+          "src": "assets/locations/computer-lab/photo-1.svg",
+          "alt": "Coding"
+        }
+      ]
+    },
+    {
+      "id": "ai-projects",
+      "type": "info",
+      "title": "AI Projects",
+      "description": "Students explore how AI learns from examples and build simple, responsible AI projects.",
+      "position": {
+        "x": 72,
+        "y": 40
+      },
+      "image": {
+        "src": "assets/locations/computer-lab/photo-2.svg",
+        "alt": "AI project"
+      },
+      "relatedContent": [
+        {
+          "label": "Imagine the school in 2040",
+          "link": "/future"
+        }
+      ],
+      "aiQuestion": "What do students do with AI in the computer laboratory?"
+    },
+    {
+      "id": "to-science-lab",
+      "type": "navigation",
+      "title": "Science Laboratory",
+      "target": "science-lab",
+      "position": {
+        "x": 6,
+        "y": 72
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "to": "science-lab",
+      "label": "Back to the science lab",
+      "direction": "left"
+    },
+    {
+      "to": "library",
+      "label": "Go to the library",
+      "direction": "forward"
+    }
+  ],
+  "aiContext": "The computer lab is beside the science lab. It is where students learn coding and AI basics.",
+  "mapPosition": {
+    "x": 34,
+    "y": 70
+  },
+  "isSampleData": true
+}

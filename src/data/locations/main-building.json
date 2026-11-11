@@ -1,0 +1,154 @@
+{
+  "id": "main-building",
+  "name": "Main Building",
+  "order": 2,
+  "category": "Administration",
+  "shortDescription": "The heart of the campus with the office, staff room and clock tower.",
+  "detailedDescription": "The Main Building is the oldest and most recognisable building on campus, crowned by its clock tower. It houses the principal's office, the administration office and the staff room, and its corridors connect to the classroom wing.",
+  "thumbnail": "assets/locations/main-building/thumbnail.svg",
+  "mainImage": {
+    "src": "assets/locations/main-building/main.svg",
+    "alt": "Main Building (sample illustration)",
+    "caption": "Sample illustration – replace with a real photo"
+  },
+  "panorama": null,
+  "historicalInformation": [
+    "Sample: The Main Building was the first permanent building on the campus.",
+    "Sample: The clock tower was added later and has become a symbol of the school."
+  ],
+  "interestingFacts": [
+    "The clock tower can be seen from almost every corner of the campus.",
+    "Corridors from the Main Building lead to the classroom wing."
+  ],
+  "facilities": [
+    "Principal's office",
+    "Administration office",
+    "Staff room",
+    "Reception"
+  ],
+  "achievements": [
+    "Sample: Trophy cabinet displaying inter-school awards"
+  ],
+  "relatedImages": [
+    {
+      "src": "assets/locations/main-building/photo-1.svg",
+      "alt": "Main building facade",
+      "caption": "The facade (sample)"
+    },
+    {
+      "src": "assets/locations/main-building/photo-2.svg",
+      "alt": "Clock tower close-up",
+      "caption": "Clock tower (sample)"
+    },
+    {
+      "src": "assets/locations/main-building/photo-3.svg",
+      "alt": "Reception area",
+      "caption": "Reception (sample)"
+    }
+  ],
+  "videos": [],
+  "hotspots": [
+    {
+      "id": "school-history",
+      "type": "info",
+      "title": "School History",
+      "description": "The clock tower and the Main Building tell the story of how the school grew from a single building into a full campus.",
+      "position": {
+        "x": 50,
+        "y": 26
+      },
+      "image": {
+        "src": "assets/locations/main-building/photo-2.svg",
+        "alt": "Clock tower"
+      },
+      "historicalNotes": [
+        "Sample: The Main Building was the first permanent structure.",
+        "Sample: Additional wings were added as student numbers grew."
+      ],
+      "relatedContent": [
+        {
+          "label": "Open the history timeline",
+          "link": "/history"
+        }
+      ]
+    },
+    {
+      "id": "milestones",
+      "type": "info",
+      "title": "Milestones",
+      "description": "A wall display inside the entrance hall marks important milestones in the school's journey.",
+      "position": {
+        "x": 24,
+        "y": 58
+      },
+      "photos": [
+        {
+          "src": "assets/locations/main-building/photo-3.svg",
+          "alt": "Milestone wall"
+        }
+      ],
+      "relatedContent": [
+        {
+          "label": "See historical memories",
+          "link": "/gallery?category=history"
+        }
+      ]
+    },
+    {
+      "id": "achievements",
+      "type": "info",
+      "title": "Achievements",
+      "description": "The trophy cabinet showcases awards won by students in academics, arts and sports.",
+      "position": {
+        "x": 76,
+        "y": 58
+      },
+      "photos": [
+        {
+          "src": "assets/locations/main-building/photo-1.svg",
+          "alt": "Trophy cabinet"
+        }
+      ],
+      "relatedContent": [
+        {
+          "label": "Achievements gallery",
+          "link": "/gallery?category=achievements"
+        }
+      ],
+      "aiQuestion": "What achievements does the school have?"
+    },
+    {
+      "id": "to-classrooms",
+      "type": "navigation",
+      "title": "Classrooms",
+      "target": "classrooms",
+      "position": {
+        "x": 90,
+        "y": 80
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "to": "classrooms",
+      "label": "Walk down the corridor",
+      "direction": "right"
+    },
+    {
+      "to": "entrance",
+      "label": "Back to the entrance",
+      "direction": "back"
+    },
+    {
+      "to": "auditorium",
+      "label": "Go to the auditorium",
+      "direction": "left"
+    }
+  ],
+  "aiContext": "The Main Building is where visitors are received. The history timeline and the achievements gallery give more detail about the school's past and awards.",
+  "mapPosition": {
+    "x": 50,
+    "y": 42
+  },
+  "isSampleData": true
+}

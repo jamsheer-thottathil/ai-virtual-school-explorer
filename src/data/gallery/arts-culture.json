@@ -1,0 +1,30 @@
+{
+  "id": "arts-culture",
+  "title": "Arts & Culture",
+  "description": "Music, dance, drama and art.",
+  "order": 6,
+  "isSampleData": true,
+  "items": [
+    {
+      "id": "arts-culture-1",
+      "type": "image",
+      "src": "assets/gallery/arts-culture/1.svg",
+      "alt": "Music performance (sample illustration)",
+      "caption": "Music performance"
+    },
+    {
+      "id": "arts-culture-2",
+      "type": "image",
+      "src": "assets/gallery/arts-culture/2.svg",
+      "alt": "Drama rehearsal (sample illustration)",
+      "caption": "Drama rehearsal"
+    },
+    {
+      "id": "arts-culture-3",
+      "type": "image",
+      "src": "assets/gallery/arts-culture/3.svg",
+      "alt": "Art exhibition (sample illustration)",
+      "caption": "Art exhibition"
+    }
+  ]
+}

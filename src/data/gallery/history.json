@@ -1,0 +1,30 @@
+{
+  "id": "history",
+  "title": "Historical Memories",
+  "description": "Photographs from our past.",
+  "order": 10,
+  "isSampleData": true,
+  "items": [
+    {
+      "id": "history-1",
+      "type": "image",
+      "src": "assets/gallery/history/1.svg",
+      "alt": "The early campus (sample illustration)",
+      "caption": "The early campus"
+    },
+    {
+      "id": "history-2",
+      "type": "image",
+      "src": "assets/gallery/history/2.svg",
+      "alt": "First batch of students (sample illustration)",
+      "caption": "First batch of students"
+    },
+    {
+      "id": "history-3",
+      "type": "image",
+      "src": "assets/gallery/history/3.svg",
+      "alt": "Old school bell (sample illustration)",
+      "caption": "Old school bell"
+    }
+  ]
+}

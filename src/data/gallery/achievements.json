@@ -1,0 +1,30 @@
+{
+  "id": "achievements",
+  "title": "Achievements",
+  "description": "Awards, trophies and recognitions.",
+  "order": 9,
+  "isSampleData": true,
+  "items": [
+    {
+      "id": "achievements-1",
+      "type": "image",
+      "src": "assets/gallery/achievements/1.svg",
+      "alt": "Trophy cabinet (sample illustration)",
+      "caption": "Trophy cabinet"
+    },
+    {
+      "id": "achievements-2",
+      "type": "image",
+      "src": "assets/gallery/achievements/2.svg",
+      "alt": "Award ceremony (sample illustration)",
+      "caption": "Award ceremony"
+    },
+    {
+      "id": "achievements-3",
+      "type": "image",
+      "src": "assets/gallery/achievements/3.svg",
+      "alt": "Certificates of merit (sample illustration)",
+      "caption": "Certificates of merit"
+    }
+  ]
+}

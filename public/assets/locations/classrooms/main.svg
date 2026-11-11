@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Classrooms (sample illustration)">
+  <defs><linearGradient id="shadem" x1="0" y1="0" x2="0" y2="1"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.65"/></linearGradient></defs>
+  <g><rect width="1600" height="1000" fill="#fef3c7"/><rect y="700" width="1600" height="300" fill="#d6a76c"/>
+    <rect x="300" y="140" width="1000" height="420" rx="14" fill="#14532d" stroke="#7c4a1e" stroke-width="22"/>
+    <text x="360" y="250" fill="#ecfdf5" font-family="Comic Sans MS, Arial" font-size="58">E = mc²   ∑ learning</text>
+    <text x="360" y="340" fill="#ecfdf5" font-family="Comic Sans MS, Arial" font-size="46">Today: Curiosity + Teamwork</text>
+    <rect x="1340" y="160" width="160" height="120" rx="10" fill="#38bdf8"/>
+    <rect x="170" y="760" width="250" height="40" rx="8" fill="#92400e"/><rect x="190" y="800" width="20" height="120" fill="#78350f"/><rect x="380" y="800" width="20" height="120" fill="#78350f"/><rect x="500" y="760" width="250" height="40" rx="8" fill="#92400e"/><rect x="520" y="800" width="20" height="120" fill="#78350f"/><rect x="710" y="800" width="20" height="120" fill="#78350f"/><rect x="830" y="760" width="250" height="40" rx="8" fill="#92400e"/><rect x="850" y="800" width="20" height="120" fill="#78350f"/><rect x="1040" y="800" width="20" height="120" fill="#78350f"/><rect x="1160" y="760" width="250" height="40" rx="8" fill="#92400e"/><rect x="1180" y="800" width="20" height="120" fill="#78350f"/><rect x="1370" y="800" width="20" height="120" fill="#78350f"/>
+    <rect x="80" y="160" width="120" height="420" fill="#bae6fd" stroke="#fff" stroke-width="10"/></g>
+  
+  <rect width="1600" height="1000" fill="url(#shadem)"/>
+  <text x="60" y="900" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">Classrooms</text>
+  <text x="62" y="950" fill="#fff" opacity="0.8" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="3">SAMPLE IMAGE · replace with a real photo</text>
+</svg>

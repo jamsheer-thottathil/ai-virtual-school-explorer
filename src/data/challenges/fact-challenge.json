@@ -1,0 +1,64 @@
+{
+  "id": "fact-challenge",
+  "type": "true-false",
+  "title": "Interesting Fact Challenge",
+  "description": "True or false? Test the facts you discovered on the tour.",
+  "icon": "lightbulb",
+  "order": 3,
+  "accent": "#f59e0b",
+  "badges": [
+    {
+      "id": "bronze",
+      "title": "Fact Finder",
+      "description": "Scored 40% or more.",
+      "icon": "medal",
+      "minScorePercent": 40
+    },
+    {
+      "id": "silver",
+      "title": "Fact Detective",
+      "description": "Scored 70% or more.",
+      "icon": "award",
+      "minScorePercent": 70
+    },
+    {
+      "id": "gold",
+      "title": "Fact Master",
+      "description": "A perfect score!",
+      "icon": "trophy",
+      "minScorePercent": 100
+    }
+  ],
+  "questions": [
+    {
+      "id": "f1",
+      "statement": "The path from the Main Entrance leads directly to the Main Building.",
+      "isTrue": true,
+      "explanation": "Yes – just follow the path from the gate."
+    },
+    {
+      "id": "f2",
+      "statement": "The school garden has a small pond.",
+      "isTrue": true,
+      "explanation": "The pond attracts birds, butterflies and dragonflies."
+    },
+    {
+      "id": "f3",
+      "statement": "The library is the loudest place on campus.",
+      "isTrue": false,
+      "explanation": "The library is a quiet zone for reading and research."
+    },
+    {
+      "id": "f4",
+      "statement": "Students learn internet safety in the computer laboratory.",
+      "isTrue": true,
+      "explanation": "Internet safety comes before online research."
+    },
+    {
+      "id": "f5",
+      "statement": "Sports day is held inside the library.",
+      "isTrue": false,
+      "explanation": "Sports day is held on the playground."
+    }
+  ]
+}

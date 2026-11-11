@@ -1,0 +1,30 @@
+{
+  "id": "students",
+  "title": "Students",
+  "description": "Student life, friendships and leadership.",
+  "order": 4,
+  "isSampleData": true,
+  "items": [
+    {
+      "id": "students-1",
+      "type": "image",
+      "src": "assets/gallery/students/1.svg",
+      "alt": "Student council (sample illustration)",
+      "caption": "Student council"
+    },
+    {
+      "id": "students-2",
+      "type": "image",
+      "src": "assets/gallery/students/2.svg",
+      "alt": "Reading buddies (sample illustration)",
+      "caption": "Reading buddies"
+    },
+    {
+      "id": "students-3",
+      "type": "image",
+      "src": "assets/gallery/students/3.svg",
+      "alt": "Lunch-break friends (sample illustration)",
+      "caption": "Lunch-break friends"
+    }
+  ]
+}

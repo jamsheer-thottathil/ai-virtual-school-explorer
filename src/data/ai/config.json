@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "apiBaseUrl": "https://api.aicredits.in/v1",
+  "model": "google/gemma-3-4b-it",
+  "temperature": 0.3,
+  "maxTokens": 600,
+  "proxyUrl": "",
+  "timeoutMs": 20000,
+  "allowDemoKey": true,
+  "maxHistoryMessages": 8,
+  "imageGeneration": {
+    "enabled": false,
+    "endpoint": "",
+    "model": "",
+    "size": "1024x1024"
+  }
+}
